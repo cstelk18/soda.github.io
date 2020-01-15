@@ -1,0 +1,289 @@
+#slide-nav {
+position: fixed;
+background-color: #000000;
+z-index: 6;
+top: 0;
+left: 0;
+height: 100vh;
+width: 35vw;
+}
+
+#slide-nav li {
+z-index: 6;
+font-size: 40px;
+padding: 35px;
+list-style-type: none;
+}
+
+#slide-nav a {
+z-index: 6;
+color: #f2f0e3;
+text-decoration: none;
+opacity: 0.70;
+}
+
+#slide-nav a:hover {
+border-bottom: 3px solid #fff;
+opacity: 0.75;
+transition-duration: 2s;
+}
+
+#nav-button {
+position: fixed;
+background-color: #000000;
+color: #fff;
+z-index: 7;
+color: #fff;
+top: 5%;
+left: 30%;
+border: none;
+font-size: 30px;
+height: 35px;
+width: 35px;
+cursor: pointer;
+}
+
+#nav-button-open {
+position: fixed;
+background-color: transparent;
+z-index: 6;
+color: grey;
+top: 5%;
+left: 3%;
+border: none;
+height: 35px;
+width: 35px;
+font-size: 20px;
+cursor: pointer;
+}
+
+#image-showcase {
+position: fixed;
+top: 0;
+left: 0;
+height: 65vh;
+width: 100vw;
+}
+
+#image-showcase img {
+opacity: 0.9;
+filter: contrast(-10%);
+height: 65vh;
+width: 100vw;
+}
+
+#continent-container {
+background-color: #000000;
+left: 0;
+top: 65%;
+z-index: 3;
+position: absolute;
+padding-bottom: 270px;
+height: 100vh;
+width: 100vw;
+}
+
+.nav-scroll {
+position: fixed;
+z-index: 5;
+height: 15vh;
+width: 100vw;
+top: 0;
+left: 0;
+background-color: #fff;
+}
+
+.north-america-container {
+position: absolute;
+z-index: 4;
+left: 15%;
+top: 70%;
+height: 35vh;
+width: 20vw;
+}
+
+.north-america-container h2 {
+z-index: 4;
+color: crimson;
+font-size: 20px;
+padding-left: 5px;
+}
+
+.north-america-container li {
+z-index: 4;
+padding: 3px;
+list-style-type: none;
+}
+
+.north-america-container a {
+z-index: 4;
+color: grey;
+text-decoration: none;
+}
+
+.latin-america-container {
+z-index: 4;
+position: absolute;
+left: 30%;
+top: 70%;
+height: 85vh;
+width: 20vw;
+}
+
+.latin-america-container h2 {
+z-index: 4;
+color: crimson;
+font-size: 20px;
+padding-left: 5px;
+}
+
+.latin-america-container li {
+z-index: 4;
+padding: 5px;
+list-style-type: none;
+}
+
+.latin-america-container a {
+z-index: 4;
+color: grey;
+text-decoration: none;
+}
+
+.europe-container {
+z-index: 4;
+position: absolute;
+left: 50%;
+top: 70%;
+height: 85vh;
+width: 20vw;
+}
+
+.europe-container h2 {
+z-index: 4;
+color: crimson;
+font-size: 20px;
+padding-left: 5px;
+}
+
+.europe-container li {
+z-index: 4;
+padding: 5px;
+list-style-type: none;
+}
+
+.europe-container a {
+z-index: 4;
+color: grey;
+text-decoration: none;
+}
+
+.eurasia-container {
+z-index: 4;
+position: absolute;
+left: 67%;
+top: 70%;
+height: 60vh;
+width: 20vw;
+}
+
+.eurasia-container h2 {
+z-index: 4;
+color: crimson;
+font-size: 20px;
+padding-left: 10px;
+}
+
+.eurasia-container li {
+z-index: 4;
+padding: 5px;
+list-style-type: none;
+}
+
+.eurasia-container a {
+z-index: 4;
+color: grey;
+text-decoration: none;
+}
+
+.soda {
+position: fixed;
+z-index: 7;
+height: 95px;
+top: 10%;
+left: 47%;
+}
+
+.canvas {
+position: fixed;
+background-color: crimson;
+z-index: 6;
+top: 7.8%;
+left: 45.35%;
+border-radius: 100px;
+height: 15vh;
+width: 10vw;
+}
+
+footer {
+position: absolute;
+background-color: crimson;
+height: 15vh;
+width: 100vw;
+left: 0;
+bottom: -110%;
+}
+
+footer p {
+text-align: center;
+font-size: 15px;
+letter-spacing: 0.05em;
+padding-top: 30px;
+color: #fff;
+}
+
+/* For Mobile */
+
+@media(max-width: 1360px) {
+#slide-nav {
+width: 45vw;
+}
+
+#slide-nav li {
+font-size: 20px;
+}
+
+#nav-button {
+left: 50%;
+font-size: 15px;
+}
+
+.canvas {
+height: 130px;
+width: 130px;
+left: 43.7%;
+}
+
+.north-america-container {
+left: 0;
+}
+
+.north-america-container h2 {
+font-size: 20px;
+}
+
+.north-america-container li {
+font-size: 15px;
+}
+
+.latin-america-container {
+left: 23%;
+}
+
+footer {
+bottom: -205%;
+}
+
+footer p {
+font-size: 10px;
+}
+}
